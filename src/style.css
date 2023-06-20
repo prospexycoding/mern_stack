@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-design{
+    width: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: white;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.message-design h1{
+    font-size: 13px;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.first-subject{
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.second-subject{
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.third-subject{
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.forth-subject{
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.message-contain{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+}
+
+.message-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: orange;
+    padding: 20px;
+    flex-wrap: wrap;
+    border-radius: 8px;
+
+}
+.all{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+}
+
+
+form{
+    width: 25%;
+    min-height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 6px;
+}
+
+form h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form input::placeholder{
+    font-size: 12px;
+}
+
+form input{
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+form input:focus{
+    border: 1px solid orange;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+button{
+    width: 120px;
+    padding: 8px;
+    border-radius: 25px;
+    background-color: rgb(122, 117, 107);
+    color: white;
+    border: none;
+    transition: all .5s ease;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #cccc;
+    color: black;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* header */
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+header h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: orange;
+}
+
+footer p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
